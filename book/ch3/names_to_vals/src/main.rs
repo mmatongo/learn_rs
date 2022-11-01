@@ -21,4 +21,11 @@ fn main() {
     println!("I am {} ft tall", height);
     height = 6.02;
     println!("sometimes I am {} ft tall", height);
+
+    /*
+     * completely forgot that this is a thing
+     */
+    let me: &str;
+    me = "Daniel";
+    println!("{}", me);
 }
